@@ -1,0 +1,5 @@
+<tool_dependency>
+    <set_environment version="1.0">
+        <environment_variable action="set_to" name="GATK_PATH">"/tRNA_mods/tools/GATK/3.6-0"</environment_variable>
+    </set_environment>
+</tool_dependency>
