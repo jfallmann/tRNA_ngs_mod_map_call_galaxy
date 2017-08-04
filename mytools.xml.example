@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<toolbox>
+  <section id="tRNAmod" name="tRNA modifications" >
+	<tool file="/tRNA_mods/tools/bbduk_wrapper.xml" />
+	<tool file="/tRNA_mods/tools/addCCA.xml" />
+	<tool file="/tRNA_mods/tools/clustering.xml" />
+	<tool file="/tRNA_mods/tools/modBed12.xml" />
+	<tool file="/tRNA_mods/tools/multimapperPhasing.xml" />
+	<tool file="/tRNA_mods/tools/removeGenomeMapper.xml" />
+	<tool file="/tRNA_mods/tools/removePrecursor.xml" />
+	<tool file="/tRNA_mods/tools/tRNAscan2bed12.xml" />
+	<tool file="/tRNA_mods/tools/tRNAscan.xml" />
+	<tool file="/tRNA_mods/tools/getChrM.xml" />
+	<tool file="/tRNA_mods/tools/modFasta.xml" />
+	<tool file="/tRNA_mods/tools/gatk_wrapper.xml" />
+  </section>
+</toolbox>
